@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shoppingcart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<!--*********************************** 头部区域 ******************************-->
+<nav class="nav navbar-default" id="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="javascript:void(0);" target="_blank" title="登录">登录</a>   |
+            <a href="javascript:void(0);" target="_blank" title="免费注册">免费注册</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <div class="nav navbar-nav navbar-right">
+                <div class="shopcart"><a href="javascript:void(0);" id="drop_down"><img src="images/shopCart.png" alt="">我的购物车<div class="rt drop_ico"></div></a>
+                    <div class="clearfix"></div>
+                    <div id="drop_menu" class="thumbnail">
+                        <h3>
+                            <i>1件商品</i>|<b>￥500</b>
+                            <a class="closer rt" href="javascript:void(0);">关闭</a>
+                        </h3>
+                        <div class="shop">
+                            <a href="#"><img src="images/p1.jpg" alt="" class="lt"></a>
+                            <p>VALENTINO</p>
+                            <p>漆皮铆钉搭带高跟鞋</p>
+                            <p>
+                                <span>尺寸：IT38</span>
+                                <em>￥7.400</em>
+                            </p>
+                        </div>
+                        <div class="shop_summary">
+                            <p>总计：￥7.400</p>
+                            <p>运费：￥0（满500元免运费）</p>
+                            <p>
+                                <a class="lookcart" href="javascript:void(0);" target="_blank">查看购物车</a>
+                                <a class="looksummary" href="javascript:void(0);" target="_blank">去结算</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <img src="images/logo.png" alt="" id="logopic" class="img-responsive">
+    <div class="input-group" id="input_tab">
+        <input type="text" class="form-control" placeholder="">
+        <div class="input-group-addon"><a href="javascript:void(0);"><img src="images/glass.png" alt=""></a></div>
+    </div>
+</div>
+<div class="containter">
+    <ul class="nav_menu">
+        <li><a href="#">Lady 1st</a>
+            <div  class="nav_list">
+                <img src="images/nav_corner.png" alt="">
+                <ul>
+                    <li><a href="">连衣裙 One Piece</a></li>
+                    <li><a href="">T Shirt</a></li>
+                    <li><a href="">短裙 Mini</a></li>
+                    <li><a href="">外套 Coat</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="">Boy 2man</a>
+            <div class="nav_list1">
+                <img src="images/nav_corner.png" alt="">
+                <ul>
+                    <li><a href="">T Shirt</a></li>
+                    <li><a href="">上衣 Tops</a></li>
+                    <li><a href="">裤子 Pants</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Bings</a>
+            <div  class="nav_list2">
+                <img src="images/nav_corner.png" alt="">
+                <ul>
+                    <li><a href="">项链 Necklace</a></li>
+                    <li><a href="">戒指 Rings</a></li>
+                    <li><a href="">耳环 Earrings</a></li>
+                    <li><a href="">手镯/手链 Bracelets Coat</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="">IT</a>
+            <div  class="nav_list3">
+                <img src="images/nav_corner.png" alt="">
+                <ul>
+                    <li><a href="javascript:void(0);">包 Bags</a></li>
+                    <li><a href="javascript:void(0);">鞋 Shoes</a></li>
+                    <li><a href="javascript:void(0);">眼镜 Glasses</a></li>
+                    <li><a href="javascript:void(0);">More</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="">Flash</a></li>
+        <li><a href="">Blog</a></li>
+    </ul>
+</div>
+<!--*********************************** 主体区域 ******************************-->
+<div class="container clearfix theme">
+    <div class="clearfix">
+        <ul class="lt img_list">
+            <li><img src="images/article/p1.jpg"/></li>
+            <li><img src="images/article/p1.jpg"/></li>
+            <li><img src="images/article/p1.jpg"/></li>
+            <li><img src="images/article/p1.jpg"/></li>
+        </ul>
+        <div class="goods_details lt">
+            <h1>纯白色棉质宽松不对称设计连衣裙</h1>
+            <em>￥3,590</em>
+            <div class="color">
+                <label>选择颜色：</label>
+                <div>
+                    <span>灰白色</span>
+                    <span class="cked">红色</span>
+                </div>
+            </div>
+            <div class="size">
+                <label>选择尺码：</label>
+                <div>
+						<span>
+							<a class="style-select" href="javascript:void(0);">XS</a>
+							<a href="javascript:void(0);">S</a>
+							<a href="javascript:void(0);">M</a>
+							<a href="javascript:void(0);">L</a>
+						</span>
+                    <p><a href="javascript:void(0)" title="" target="_blank">尺码指引表</a></p>
+                </div>
+            </div>
+            <div class="num">
+                <label>购买数量：</label>
+                <span>
+						<a class="num-minus" href="javascript:void(0);">-</a>
+						<input class="num-box" type="text" name="" value="1"  min="1"/>
+						<a class="num-add" href="javascript:void(0);">+</a>
+					</span>
+                <strong>有货</strong>
+            </div>
+            <a class="addToCart" href="javascript:void(0);">加入购物车</a>
+            <div class="describe">
+                <strong>单品描述：</strong>
+                <div>
+                    <ol>
+                        <li>白色拼黑色，插肩无袖设计，腰部两侧切割镂空，附背部拉链及内衬，燕尾裙摆；</li>
+                        <li>97% 聚酯, 3% 氨纶</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe nursing">
+                <strong>护理方法：</strong>
+                <div>
+                    <ol>
+                        <li>白色拼黑色，插肩无袖设计，腰部两侧切割镂空，附背部拉链及内衬，燕尾裙摆；</li>
+                        <li>97% 聚酯, 3% 氨纶</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relevant clearfix">
+        <h3>if you like this you might be Into These</h3>
+        <ul>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+            <li><a href="" target="_blank" title=""><img src="images/article/p2.jpg" alt="" /></a></li>
+        </ul>
+    </div>
+</div>
+<!--*********************************** 弹层内容 ******************************-->
+<div id="addto_cart" style="display:none;">
+    <div class="layer">
+        <div class="add_cart">
+            <em>以下产品已加入您的购物袋</em>
+            <a class="close_cart" href="javascript:void(0);"></a>
+            <div class="cart_list">
+                <a class="cart_thumb" href="javascript:void(0);" target="_blank" title="混羊毛蝴蝶结半身裙"><img src="images/article/thumb.png" alt="混羊毛蝴蝶结半身裙" /></a>
+                <div class="cart_info">
+                    <a class="store" href="" target="_blank" title="LANVIN">LANVIN</a>
+                    <a href="javascript:void(0);" target="_blank" title="混羊毛蝴蝶结半身裙">混羊毛蝴蝶结半身裙</a>
+                    <span><label>尺寸：</label>FR 40</span>
+                </div>
+                <div class="cart-num">
+                    <span>x1</span>
+                </div>
+                <div class="cart-sum">
+                    <span>￥13，000</span>
+                </div>
+            </div>
+            <div class="cart_summary">
+                <div class="clearfix">
+						<span class="left">
+							<em>购物袋</em>
+							<strong>包含<i>4</i>件产品</strong>
+						</span>
+                    <span class="right">总计：￥52，000</span>
+                </div>
+                <strong>2-3日内发货</strong>
+                <a href="javascript:void(0);" target="_blank" title="查看/修改购物袋">查看/修改购物袋</a>
+            </div>
+            <div class="discount">
+                <em>折扣信息</em>
+                <p>产品促销期间，商家会随机发送验证码至注册用户邮箱，用户输入验证码，则可享受此次购买商品的8.5折。</p>
+            </div>
+            <div class="cart_bt">
+                <a href="javascript:void(0);">继续购物</a>
+                <a href="javascript:void(0);">前往结账&nbsp;&gt;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--*********************************** 弹层内容 ******************************-->
+<!--*********************************** 尾部区域 ******************************-->
+<div class="container clearfix footer">
+    <img src="images/logo.png" alt="logo"  class="lt"/>
+    <div>
+        <ul class="lt service_help">
+            <li><a href="" target="_blank" title="帮助">帮助</a>|</li>
+            <li><a href="" target="_blank" title="联系我们">联系我们</a>|</li>
+            <li><a href="" target="_blank" title="关于我们">关于我们</a>|</li>
+            <li><a href="" target="_blank" title="礼品卡">礼品卡</a>|</li>
+            <li><a href="" target="_blank" title="服务">服务</a>|</li>
+            <li><a href="" target="_blank" title="贵宾会员计划">贵宾会员计划</a>|</li>
+            <li><a href="" target="_blank" title="服务条款">服务条款</a>|</li>
+            <li><a href="" target="_blank" title="隐私条款">隐私条款</a></li>
+        </ul>
+        <div class="clearfix"></div>
+        <p>icon fetish百货商贸有限责任公司</p>
+        <p>icon fetish@2014 京ICP备14022266号</p>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#drop_down').click(function(){
+        $('#drop_menu').css('display','block');
+        $('.drop_ico').css('background-position','top');
+    });
+    $('.closer').click(function(){
+        $('#drop_menu').css('display','none');
+        $('.drop_ico').css('background-position','bottom');
+    });
+    /***********下拉列表*****************/
+    $('.nav_menu>li').hover(function(){
+        $(this).children('div').stop(true,false).slideDown(300);
+    },function(){
+        $(this).children('div').stop(true,false).slideUp(300);
+    });
+    /***********选择列表*****************/
+    $('.color span').click(function(){
+        $(this).css('background-position','0 -18px').siblings().css('background-position','0 0');
+    });
+    /***********选择列表*****************/
+    $('.size div span a').click(function(){
+        $(this).addClass('style-select').siblings().removeClass('style-select');
+    });
+    /***********增加列表*****************/
+    $('.num-minus').click(function(){
+        $('.num-box').val(eval($('.num-box').val())-1);
+        if($('.num-box').val()<1){
+            $('.num-box').val(1);
+        }
+        //$('.num-box').val(parseInt($('.num-box').val())+1);
+        /* var num=$('.num-box').val();
+         $('.num-box').val(eval(num)+1);*/
+    });
+    $('.num-add').click(function(){
+        $('.num-box').val(eval($('.num-box').val())+1);
+        //$('.num-box').val(parseInt($('.num-box').val())+1);
+        /* var num=$('.num-box').val();
+         $('.num-box').val(eval(num)+1);*/
+    });
+    /***********增加列表*****************/
+    /***************************弹层内容*************************************/
+    $('.addToCart').click(function(){
+        $('#addto_cart').css('display','block');
+    });
+    $('.close_cart').click(function(){
+        $('#addto_cart').css('display','none');
+    });
+    /***************************弹层内容*************************************/
+</script>
+</body>
+</html>
